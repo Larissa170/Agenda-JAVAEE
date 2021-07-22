@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size:1em; /*fonte 12 ou 16px*/
+	font-weight:400;
+}
+
+h1 {
+	color:#002050;
+}
+
+.botao1 {
+	text-decoration: none;
+	background-color: #002050;
+	padding: 5px 10px 5px 10px;
+	color: #fff ;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border:0;
+	cursor:pointer; /* vira maozinha ao passar em cima */
+}
+
+.botao2 {
+	text-decoration: none;
+	background-color: #ff0000;
+	padding: 5px 10px 5px 10px;
+	color: #fff ;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border:0;
+	cursor:pointer; /* vira maozinha ao passar em cima */
+}
+
+.caixa1 {
+	
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #0080ff;
+	border-radius: 5px;
+}
+
+.caixa2 {
+	
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #0080ff;
+	border-radius: 5px;
+}
+
+#caixa3 {
+	width: 25px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #002050;
+	border-radius: 5px;
+	
+}
+
+#tabela {
+	margin-top:30px;
+	border-collapse: collapse;
+}
+
+#tabela th {
+	border: 1px solid #0080ff;
+	padding: 10px;
+	background-color: #0080ff;
+	color: #fff;
+}
+
+#tabela td {
+	border: 1px solid #0080ff;
+	padding: 10px;
+
+}
+
